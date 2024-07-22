@@ -1,0 +1,12 @@
+.placement-assistance-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #b5b3e3;
+}
+.placement-assistance-container>h1{
+    font-weight: bold;
+}

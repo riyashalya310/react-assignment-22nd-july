@@ -1,0 +1,51 @@
+.last-component-outer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h1{
+    font-size: 30px;
+}
+.last-component-outer-container>div:nth-of-type(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.last-component-outer-container>div:nth-of-type(1)>div:nth-of-type(1){
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.last-component-outer-container>div:nth-of-type(1)>div:nth-of-type(1)>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px;
+    margin: 4px;
+    padding: 3px;
+}
+.last-component-outer-container>form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.last-component-outer-container>form>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.last-component-outer-container>form>div>input{
+    margin: 10px;
+}
+
+.last-component-outer-container>div:nth-of-type(1)>div:nth-of-type(2){
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.last-component-outer-container>div:nth-of-type(1)>div:nth-of-type(2)>button{
+    margin: 2px;
+}
